@@ -12,11 +12,11 @@
         <p></p>
 </div>
 
-<section >
+<section class="servicios">
     <Servicios/>
 </section>
 
-<section >
+<section class="atencion">
     <Atencion/>
 </section>
 
@@ -36,16 +36,20 @@
 </section>
 
 <style>
-    
+    /*
     h2{
         text-align: center;
         font-size: 2rem;
         padding: 2rem 0;
-    }
+    }*/
     .contenedor{
         display: flex;
     }
+    .atencion{
+        background: #DEEAFB;
+background: linear-gradient(to top, #DEEAFB 70%, #F0F6FE 92%);
 
+}
 
 
 

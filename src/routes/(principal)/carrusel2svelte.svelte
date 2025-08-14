@@ -36,7 +36,7 @@
 
 
 </script>
-
+https://wireframe.cc/c1JaUU
 <div class="contenedor-slider">
 	<div class="slide">
 		<img src={img1} alt="" />
