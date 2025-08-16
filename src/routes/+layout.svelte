@@ -1,13 +1,21 @@
 
 <script>
     let { children} = $props();
+    import Footer from './footer.svelte';
+    import Header from './(principal)/header.svelte';
+
 </script>
+
+<header>
+    <Header/>
+</header>
 
 <main>
     {@render children()}
 </main>
 
-<footer>
+<footer id="footer" >
+<Footer/>
     <p>© 2025 Clínica Tu Salud. Todos los derechos reservados.</p>
 </footer>
 
@@ -20,6 +28,15 @@
 
     }
     main{
-        margin: 0 2rem;
+background-color: #f0f6fe;    }
+
+footer{
+        background-color: #DEEAFB ;
+    }
+
+    header{
+        position: sticky;
+        top: 0;
+        z-index: 10;
     }
 </style>

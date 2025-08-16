@@ -1,16 +1,16 @@
 
 <script>
-    import Carrusel from './carrusel3.svelte'
+    import Banner from './banner.svelte';
+    //import Carrusel from './carrusel3.svelte'
     import Servicios from './servicios.svelte';
     import Atencion from './atencion.svelte';
+    import Feedback from './feedback.svelte';
 </script>
 
-<Carrusel />
+<section class="banner">
+    <Banner/>
 
-<div class="contenedor-bienvenida">
-        <img src="/" alt="">
-        <p></p>
-</div>
+</section>
 
 <section class="servicios">
     <Servicios/>
@@ -20,36 +20,23 @@
     <Atencion/>
 </section>
 
-<section >
-
-    <div class="contenedor">
-    <div class="ubicacion">
-        <h4>ubicacion</h4>
-    </div>
-    <div class="horario">
-        <h4>horario de atencion</h4>
-    </div>
-    <div class="telefono">
-        <h4>telefono de contacto</h4>
-    </div>
-    </div>
+<section id="feedback">
+    <Feedback/>
 </section>
+
 
 <style>
     /*
     h2{
         text-align: center;
-        font-size: 2rem;
+        font-size: 2rem;d   
         padding: 2rem 0;
     }*/
-    .contenedor{
-        display: flex;
-    }
     .atencion{
         background: #DEEAFB;
 background: linear-gradient(to top, #DEEAFB 70%, #F0F6FE 92%);
-
 }
+   
 
 
 

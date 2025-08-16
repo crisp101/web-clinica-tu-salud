@@ -29,8 +29,8 @@
 <div class="carrusel">
     <div class="diapositivas-contenedor">
         {#each diapositivas as diapositiva, indice}
-            <div class="diapositiva" class:activa={indice === indiceActivo}>
-                <img src={diapositiva.img} alt= />
+            <div class="diapositiva" class:activa={indice === indiceActivo}  style="background-image: url({diapositiva.img})">
+                
                 <div class="texto-superpuesto">
                     <p>{diapositiva.texto}</p>
                 </div>
